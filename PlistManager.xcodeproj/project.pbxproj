@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFF8BF811676E4FD00F029DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF8BF801676E4FD00F029DA /* Foundation.framework */; };
+		DFF8BF841676E4FD00F029DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8BF831676E4FD00F029DA /* main.m */; };
+		DFF8BF881676E4FD00F029DA /* PlistManager.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DFF8BF871676E4FD00F029DA /* PlistManager.1 */; };
+		DFF8BF901676E6A000F029DA /* PlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8BF8F1676E6A000F029DA /* PlistManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFF8BF7A1676E4FD00F029DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				DFF8BF881676E4FD00F029DA /* PlistManager.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFF8BF7C1676E4FD00F029DA /* plistmanger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = plistmanger; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF8BF801676E4FD00F029DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFF8BF831676E4FD00F029DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFF8BF861676E4FD00F029DA /* PlistManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlistManager-Prefix.pch"; sourceTree = "<group>"; };
+		DFF8BF871676E4FD00F029DA /* PlistManager.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PlistManager.1; sourceTree = "<group>"; };
+		DFF8BF8E1676E6A000F029DA /* PlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistManager.h; sourceTree = "<group>"; };
+		DFF8BF8F1676E6A000F029DA /* PlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF8BF791676E4FD00F029DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8BF811676E4FD00F029DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF8BF711676E4FD00F029DA = {
+			isa = PBXGroup;
+			children = (
+				DFF8BF821676E4FD00F029DA /* PlistManager */,
+				DFF8BF7F1676E4FD00F029DA /* Frameworks */,
+				DFF8BF7D1676E4FD00F029DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF8BF7D1676E4FD00F029DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8BF7C1676E4FD00F029DA /* plistmanger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF8BF7F1676E4FD00F029DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8BF801676E4FD00F029DA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF8BF821676E4FD00F029DA /* PlistManager */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8BF8E1676E6A000F029DA /* PlistManager.h */,
+				DFF8BF8F1676E6A000F029DA /* PlistManager.m */,
+				DFF8BF831676E4FD00F029DA /* main.m */,
+				DFF8BF871676E4FD00F029DA /* PlistManager.1 */,
+				DFF8BF851676E4FD00F029DA /* Supporting Files */,
+			);
+			path = PlistManager;
+			sourceTree = "<group>";
+		};
+		DFF8BF851676E4FD00F029DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8BF861676E4FD00F029DA /* PlistManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF8BF7B1676E4FD00F029DA /* PlistManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF8BF8B1676E4FD00F029DA /* Build configuration list for PBXNativeTarget "PlistManager" */;
+			buildPhases = (
+				DFF8BF781676E4FD00F029DA /* Sources */,
+				DFF8BF791676E4FD00F029DA /* Frameworks */,
+				DFF8BF7A1676E4FD00F029DA /* CopyFiles */,
+				DFF8BF981676F6F500F029DA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlistManager;
+			productName = PlistManager;
+			productReference = DFF8BF7C1676E4FD00F029DA /* plistmanger */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF8BF731676E4FD00F029DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = zerox;
+			};
+			buildConfigurationList = DFF8BF761676E4FD00F029DA /* Build configuration list for PBXProject "PlistManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFF8BF711676E4FD00F029DA;
+			productRefGroup = DFF8BF7D1676E4FD00F029DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF8BF7B1676E4FD00F029DA /* PlistManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFF8BF981676F6F500F029DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export SUDO_ASKPASS=$SRCROOT/password.sh\nsudo cp $BUILT_PRODUCTS_DIR/$EXECUTABLE_NAME /usr/local/bin";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF8BF781676E4FD00F029DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8BF841676E4FD00F029DA /* main.m in Sources */,
+				DFF8BF901676E6A000F029DA /* PlistManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DFF8BF891676E4FD00F029DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DFF8BF8A1676E4FD00F029DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFF8BF8C1676E4FD00F029DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlistManager/PlistManager-Prefix.pch";
+				PRODUCT_NAME = plistmanger;
+			};
+			name = Debug;
+		};
+		DFF8BF8D1676E4FD00F029DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlistManager/PlistManager-Prefix.pch";
+				PRODUCT_NAME = plistmanger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF8BF761676E4FD00F029DA /* Build configuration list for PBXProject "PlistManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF8BF891676E4FD00F029DA /* Debug */,
+				DFF8BF8A1676E4FD00F029DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF8BF8B1676E4FD00F029DA /* Build configuration list for PBXNativeTarget "PlistManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF8BF8C1676E4FD00F029DA /* Debug */,
+				DFF8BF8D1676E4FD00F029DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF8BF731676E4FD00F029DA /* Project object */;
+}

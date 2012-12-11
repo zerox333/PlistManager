@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PlistManager' target in the 'PlistManager' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
